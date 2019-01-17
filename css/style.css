@@ -11,6 +11,10 @@ a:hover {
     color: #C5C1C1;
 }
 
+a {
+    color: #882287;
+}
+
 nav {
     background-color: white;
 }
@@ -19,6 +23,8 @@ nav {
     background-image: url('../assets/images/grupo1.jpg');
     background-size: 100%;
 }
+
+
 
 .lead {
     color: white;
@@ -63,6 +69,15 @@ nav {
 
 #malla {
     width: 30%;
+    margin-left: 2%;
+}
+
+#convenio {
+    width: 15%;
+}
+
+#foto-modal {
+    width: 100%;
 }
 
 /* Extra small devices (phones, 600px and down) */
