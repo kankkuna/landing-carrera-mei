@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Marketing e Innovación</title>
     <link rel="icon" href="assets/icons/MEI@3x.ico">
-    <!-- Slider.video -->
-    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <!-- Insert to your webpage before the </head> -->
     <script src="sliderengine/jquery.js"></script>
     <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
     <script src="sliderengine/initslider-1.js"></script>
-    <!-- End of Slider.video -->
+    <!-- End of head section HTML codes -->
 </head>
 <body>
     <nav class="navbar navbar-light fixed-top">
@@ -37,32 +37,36 @@
     <img src="assets/images/foto1.jpg" class="img-fluid" id='photo-hero' max-width='100%' height="auto" alt="Responsive image">
     <br>
     <div class="letter-one">
-        <p class="morado-text text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "</p>
+        <p class="morado-text text-center">"Me gusta el enfoque práctico, poder salir al campo y no basarnos solamente en lo que dice un libro y las definiciones... "</p>
         <p class="morado-text text-center"><strong>Valeria</strong></p>
-        <p class="morado-text text-center">Estudiante de 3°ciclo</p>
+        <p class="text-center margin1">Estudiante de 3°ciclo</p>
     </div>
-    <br>
-    <img class='separador' id="estudiamos" src="assets/images/separador.png" alt="">
+    <br id="estudiamos">
+    <img class='separador'  src="assets/images/separador.png" alt="">
     <p class="subtitulo">¿Cómo estudiamos acá?</p>
     <!-- Insert to your webpage where you want to display the slider -->
-    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto;">
-        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
-            <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="images/fabian_disruptores.JPG" alt="Alumno 1"  title="Alumno 1" />
-                    <video preload="none" src="images/video_carrera.mp4" ></video>
-                </li>
-                <li><img src="images/jlrevilla.jpg" alt="Alumno 2"  title="Alumno 2" />
-                    <video preload="none" src="images/video_carrera.mp4" ></video>
-                </li>
-                <li><img src="images/IMG_9933_edited.jpg" alt="Alumno 3"  title="Alumno 3" /><video preload="none" src="images/video_carrera.mp4" ></video>
-                </li>
-            </ul>
-            <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="images/fabian_disruptores-tn.JPG" alt="Alumno 1" title="Alumno 1" /></li>        <li><img src="images/jlrevilla-tn.jpg" alt="Alumno 2" title="Alumno 2" /></li>                 <li><img src="images/IMG_9933_edited-tn.jpg" alt="Alumno 3" title="Alumno 3" /></li>
-            </ul>
+    <div class="" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:480px;margin:0px auto 94px;">
+            <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+                <ul class="amazingslider-slides" style="display:none;">
+                    <li><img src="images/VALERIA-landing-foto.png" alt="Valeria Ghersi"  title="Valeria Ghersi" data-description="Alumna de 3° Ciclo de Marketing e Innovación" data-duration="5000" />
+                    <video preload="none" src="images/VALERIA-landing.mp4" ></video>
+                    </li>
+                    <li><img src="images/FRANCESCO-landing-foto1.png" alt="Francesco Defilippi"  title="Francesco Defilippi" data-description="Alumno de 3° Ciclo de Marketing e Innovación" />
+                    <video preload="none" src="images/FRANCESCO-landing.mp4" ></video>
+                    </li>
+                    <li><img src="images/JOS%C3%89-landing-foto.png" alt="José Ausejo"  title="José Ausejo" data-description="Alumno de 3° Ciclo de Marketing e Innovación" />
+                    <video preload="none" src="images/JOS%C3%89-landing.mp4" ></video>
+                    </li>
+                </ul>
+                <ul class="amazingslider-thumbnails" style="display:none;">
+                    <li><img src="images/VALERIA-landing-foto-tn.png" alt="Valeria Ghersi" title="Valeria Ghersi" /></li>
+                    <li><img src="images/FRANCESCO-landing-foto1-tn.png" alt="Francesco Defilippi" title="Francesco Defilippi" /></li>
+                    <li><img src="images/JOS%C3%89-landing-foto-tn.png" alt="José Ausejo" title="José Ausejo" /></li>
+                </ul>
+            <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Slider jQuery">Slider jQuery</a></div>
+            </div>
         </div>
-    </div>
-    <!-- End of body section HTML codes -->
+        <!-- End of body section HTML codes -->
     <br>
     <img class='separador' id="crear" src="assets/images/separador.png" alt="">
     <p class="subtitulo">Algunos de los Workshops</p>
@@ -97,14 +101,14 @@
     <p class="subtitulo">¿Cómo vas a entrenar?</p>
     <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="assets/images/mesa_disruptores.JPG" alt="Card image cap">
+          <img class="card-img-top" src="assets/images/caja-disruptores.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Disruptores</h5>
             <p class="card-text">Juego de mesa que conecta al estudiante con los conceptos básicos y el entendimiento de la importancia de la información.</p>
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="assets/images/Life.jpg" alt="Card image cap">
+          <img class="card-img-top" src="assets/images/vr.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Life</h5>
             <p class="card-text">Experiencias con realidad virtual</p>
@@ -118,10 +122,10 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/IMG_1887.jpg" alt="First slide">
+                    <img class="d-block w-100" src="assets/images/bcp-workshop.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/IMG_1966.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/bcp-workshop1.jpg" alt="Second slide">
                 </div>
             </div>
         </div>
@@ -135,10 +139,10 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/IMG_1887.jpg" alt="First slide">
+                    <img class="d-block w-100" src="assets/images/IMG_0155.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/IMG_1966.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/microsoft1.jpg" alt="Second slide">
                 </div>
             </div>
         </div>
@@ -152,10 +156,10 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/IMG_1887.jpg" alt="First slide">
+                    <img class="d-block w-100" src="assets/images/belcorp1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/IMG_1966.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="assets/images/belcorp2.jpg" alt="Second slide">
                 </div>
             </div>
         </div>
@@ -177,7 +181,7 @@
         </div>
         <div class="card-body">
             <h5 class="card-title">IBM</h5>
-            <p class="card-text">El cajero del futuro para el trabajor peruano</p>
+            <p class="card-text">Conociendo las nuevas tecnologías</p>
         </div>
     </div>
     <br>
@@ -189,10 +193,10 @@
                 <img class="d-block w-100" src="assets/images/jlrevilla.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/fabian_disruptores.JPG" alt="Second slide">
+                <img class="d-block w-100" src="assets/images/karissa (2).JPG" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/jonathan_disruptores.jpg" alt="Third slide">
+                <img class="d-block w-100" src="assets/images/chuy.jpg" alt="Third slide">
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="assets/images/plana academica/RICARDO DEUSTUA.jpg" alt="Third slide">
@@ -280,20 +284,22 @@
                   <img id="convenio" src="assets/images/convenios corporativos/aporta-logo.jpg" alt="">
               </div>
               <div class="col-sm-4">
-                  <img id="convenio" src="assets/images/convenios corporativos/Logo-Wayra.jpg" alt="">
-                  <img id="convenio" src="assets/images/convenios corporativos/revolucion.jpg" alt="">
-                  <img id="convenio" src="assets/images/convenios corporativos/sodimac-homecenter.jpg" alt="">
-                  <img id="convenio" src="assets/images/convenios corporativos/Logo-Wayra.jpg" alt="">
-                  <img id="convenio" src="assets/images/convenios corporativos/revolucion.jpg" alt="">
-                  <img id="convenio" src="assets/images/convenios corporativos/sodimac-homecenter.jpg" alt="">
+                  <img id="convenio" src="assets/images/convenios corporativos/Ripley_Logo.jpg" alt="">
+                  <img id="convenio" src="assets/images/convenios corporativos/logo_alto_peru.jpg" alt="">
+                  <img id="convenio" src="assets/images/convenios corporativos/LOGOTECHO.jpg" alt="">
+                  <img id="convenio" src="assets/images/convenios corporativos/LogoBLACK-(1).jpg" alt="">
+                  <img id="convenio" src="assets/images/convenios corporativos/logo-mercadonegro.jpg" alt="">
+                  <img id="convenio" src="assets/images/convenios corporativos/logo_latina_brandlab.jpg" alt="">
+                  <img id="convenio" src="assets/images/convenios corporativos/AIESEC Logo.jpg" alt="">
               </div>
               <div class="col-sm-4">
-                    <img id="convenio" src="assets/images/convenios corporativos/Logo-Wayra.jpg" alt="">
-                    <img id="convenio" src="assets/images/convenios corporativos/revolucion.jpg" alt="">
-                    <img id="convenio" src="assets/images/convenios corporativos/sodimac-homecenter.jpg" alt="">
-                    <img id="convenio" src="assets/images/convenios corporativos/Logo-Wayra.jpg" alt="">
-                    <img id="convenio" src="assets/images/convenios corporativos/revolucion.jpg" alt="">
-                    <img id="convenio" src="assets/images/convenios corporativos/sodimac-homecenter.jpg" alt="">
+                    <img id="convenio" src="assets/images/convenios academicos/2000px-Autonome_Universität_Barcelona_Logo.svg.jpg" alt="">
+                    <img id="convenio" src="assets/images/convenios academicos/Universidad_Aut__noma_de_Occidente.jpg" alt="">
+                    <img id="convenio" src="assets/images/convenios academicos/VFS_FullLogo_CMYK_NoBleed.jpg" alt="">
+                    <img id="convenio" src="assets/images/convenios academicos/ied_logo_BN.jpg" alt="">
+                    <img id="convenio" src="assets/images/convenios academicos/logo-SDS.jpg" alt="">
+                    <img id="convenio" src="assets/images/convenios academicos/logo_Elisava2011_castellano.jpg" alt="">
+                    <img id="convenio" src="assets/images/convenios academicos/udp.jpg" alt="">
                 </div>
                 <div class="col-sm-4">
                     <img id="convenio" src="assets/images/convenios corporativos/Logo-Wayra.jpg" alt="">
