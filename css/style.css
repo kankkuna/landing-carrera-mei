@@ -24,6 +24,10 @@ nav {
     background-size: 100%;
 }
 
+.margen-top {
+    margin-top: 40%;
+}
+
 
 
 .lead {
@@ -43,6 +47,15 @@ nav {
 
 .margin1 {
     color: #882287;
+}
+
+.circle-malla {
+    width: 110px;
+    height: 110px;
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #882287;
 }
 
 .morado-text {
