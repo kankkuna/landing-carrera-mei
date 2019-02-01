@@ -15,6 +15,30 @@ a {
     color: #882287;
 }
 
+h3.text1 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #ffffff;
+    background-color: #882287;
+}
+
+h3.text2 {
+    position: absolute;
+    bottom: 32px;
+    left: 16px;
+    color: #ffffff;
+    background-color: #882287;
+}
+
+p.text2 {
+    position: absolute;
+    bottom: 3px;
+    left: 16px;
+    color: #ffffff;
+    background-color: #882287;
+}
+
 nav {
     background-color: white;
 }
