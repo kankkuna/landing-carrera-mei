@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-.separador {
-    width: 75%;
-    margin: 10px;
-}
-
 a:hover {
     color: #C5C1C1;
 }
@@ -49,6 +44,10 @@ nav {
 }
 
 .margen-top {
+    margin-top: 25%;
+}
+
+.margen-top1 {
     margin-top: 40%;
 }
 
@@ -74,8 +73,8 @@ nav {
 }
 
 .circle-malla {
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
     -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
@@ -84,6 +83,7 @@ nav {
 
 .morado-text {
     color: #882287;
+    margin: 10px;
 }
 
 .subtitulo {
@@ -91,9 +91,18 @@ nav {
     color: #882287;
 }
 
+.card-body {
+    background-color: #882287;
+    color: #ffffff;
+}
+
+h2 {
+    color: #882287;
+}
+
 .letter-one {
     margin: 3% 5%;
-    font-size: 12px;
+    font-size: 15px;
     border: #882287;
     border-style: solid;
 }
