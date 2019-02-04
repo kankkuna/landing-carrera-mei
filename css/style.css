@@ -73,8 +73,8 @@ nav {
 }
 
 .circle-malla {
-    width: 100px;
-    height: 100px;
+    width: 112px;
+    height: 112px;
     -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
@@ -115,11 +115,6 @@ h2 {
 
 #photo-hero{
     margin-top: 17%;
-}
-
-#malla {
-    width: 30%;
-    margin-left: 2%;
 }
 
 #convenio {
