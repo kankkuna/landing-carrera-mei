@@ -4,11 +4,15 @@
 }
 
 a {
-    color: #862683;
+    color: #ffffff;
 }
 
 a:hover {
     color: #ffffff;
+}
+
+footer h2 {
+    font-family: 'bebas_neueregular';
 }
 
 h2 {
@@ -45,6 +49,14 @@ p.text2 {
     background-color: #862683;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
 .btn {
     color: white;
     background-color: #862683;
@@ -67,6 +79,10 @@ p.text2 {
     color: white;
     text-decoration: none;
     background-color: #862683;
+}
+
+.fa-facebook-square, .fa-instagram {
+    color: #ffffff;
 }
 
 .fondo-card {
