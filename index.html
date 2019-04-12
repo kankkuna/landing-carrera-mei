@@ -18,6 +18,7 @@
     <!-- End of head section HTML codes -->
 </head>
 <body>
+    <!-- inicio de chatbot messenger-watson-->
     <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>
@@ -43,7 +44,8 @@
   theme_color="#862683"
   logged_in_greeting="Bienvenido a la Carrera de Marketing e Innovación. ¿Cómo te podemos ayudar?"
   logged_out_greeting="Bienvenido a la Carrera de Marketing e Innovación. ¿Cómo te podemos ayudar?">
-</div>
+</div><!--fin de chatbot messenger-watson-->
+
     <nav class="navbar navbar-light fixed-top">
         <div class="dropdown show">
             <a class="btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars fa-lg"></i></a>
@@ -61,19 +63,19 @@
         <img class='img-fluid' id='logo1'src="assets/images/MEI.png" max-width="100%" height="auto" alt="">
         <img class='img-fluid' id='logo2' src="assets/images/logoucal-color.png" max-width="100%" height="auto" alt="">
     </nav>
-    <img src="assets/images/foto1.jpg" class="img-fluid" id='photo-hero' max-width='100%' height="auto" alt="Responsive image">
+    <img src="assets/images/foto1.jpg" class="img-fluid" max-width='100%' height="auto" id='photo-hero' alt="Responsive image">
     <br>
-    <div class="letter-one" id="estudiamos">
+    <div class="letter-one">
         <p class="morado-text text-center">"Muchas empresas se basan simplemente en producir o vender y lo que falta es generar una relación con el cliente para poder conocerlos más a profundidad."</p>
         <p class="morado-text text-center"><strong>Valeria</strong></p>
         <p class="text-center margin1">Estudiante de 3°ciclo</p>
     </div>
     <br>
-    <div class="fondo-tittle">
+    <div class="fondo-tittle d-xl-none d-lg-none"  id="estudiamos"><!--mobile-->
         <h2 class="text-center">¿Cómo estudiamos acá?</h2>
         <p class="subtitulo">Los estudiantes comentan su experiencia</p>
     </div>
-    <!-- Insert to your webpage where you want to display the slider -->
+    <!-- Insert to your webpage where you want to display the slider --> <!--mobile-->
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:780px;margin:0px auto;">
             <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
                 <ul class="amazingslider-slides" style="display:none;">
@@ -100,11 +102,11 @@
             </div>
         </div>
         <!-- End of body section HTML codes -->
-    <div class="margen-top1 fondo-tittle " >
-        <h2 class="text-center">¿Qué vas a crear?</h2>
+    <div class="margen-top1 fondo-tittle d-xl-none d-lg-none" ><!--mobile-->
+        <h2 class="text-center" id="crear">¿Qué vas a crear?</h2>
         <p class="subtitulo">Algunos de los Workshops de la carrera:</p>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" id="entrenar">
+    <div id="carouselExampleIndicators" class="carousel slide d-xl-none d-lg-none" data-ride="carousel" id="entrenar"><!--mobile-->
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -112,25 +114,28 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/images/afiches-landing_loncheras.jpg" alt="First slide">
-                <div class="card-body">
-                    <p class="card-text">Productos y servicios innovadores que promueven la alimentación saludable.</p>
-                    <p></p>
-                </div>
+                <a href="views/disruptores.html">
+                    <img class="d-block w-100" src="assets/images/afiches-landing_loncheras.jpg" alt="First slide">
+                    <div class="card-body">
+                        <p class="card-text">Productos y servicios innovadores que promueven la alimentación saludable.</p>
+                    </div>
+                </a>                
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/afiches-landing_estereotipa.jpg" alt="Second slide">
-                <div class="card-body">
-                    <p class="card-text">Publicidad que promueve la equidad de género.</p>
-                    <p></p>
-                </div>
+                <a href="views/estereotipa.html">
+                    <img class="d-block w-100" src="assets/images/afiches-landing_estereotipa.jpg" alt="Second slide">
+                    <div class="card-body">
+                        <p class="card-text">Publicidad que promueve la equidad de género.</p>
+                    </div>
+                </a>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/images/afiches-landing-03.jpg" alt="Third slide">
-                <div class="card-body">
-                    <p class="card-text">Los negocios del futuro</p>
-                    <p></p>
-                </div>
+                <a href="views/futura.html">
+                    <img class="d-block w-100" src="assets/images/afiches-landing-03.jpg" alt="Third slide">
+                    <div class="card-body">
+                        <p class="card-text">Los negocios del futuro con internet de las cosas.</p>
+                    </div>
+                </a>                
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -143,58 +148,62 @@
         </a>
     </div>
     <br>
-    <div class="fondo-tittle">
+    <div class="fondo-tittle d-xl-none d-lg-none" id="entrenar"><!--mobile-->
         <h2 class="text-center">Cómo vas a entrenar?</h2>
         <p class="subtitulo">Algunos de los experimentos de la carrera:</p>
     </div>    
-    <div class="card">
-        <div class="card-body">
-            <h5 class="card-title">Life</h5>
-            <p class="card-text">Experimentos con realidad virtual.</p>
-        </div>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/Life-slider-02.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/Life-slider-05.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/Life-slider-06.jpg" alt="Second slide">
-                </div>
+    <div class="card d-xl-none d-lg-none"><!--mobile-->
+        <a href="views/life.html">
+            <div class="card-body">
+                <h5 class="card-title">Life</h5>
+                <p class="card-text">Experimentos con realidad virtual.</p>
             </div>
-        </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/images/Life-slider-02.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/Life-slider-05.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/Life-slider-06.jpg" alt="Second slide">
+                    </div>
+                </div>
+            </div>        
+        </a>        
     </div>
     <br>
-    <div class="card" id="empresas">
-        <div class="card-body">
-            <h5 class="card-title">Disruptores</h5>
-            <p class="card-text">Juego de mesa con el que deberás crear un producto o servicio que innove en el negocio de manera novedosa, deseable y viable.</p>
-        </div>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" >
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets/images/Caja de juego Vista 3D.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/DSC_6037.JPG" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets/images/jonathan_disruptores.jpg" alt="Second slide">
+    <div class="card d-xl-none d-lg-none" id="empresas"><!--mobile-->
+        <a href="views/disruptores.html">
+            <div class="card-body">
+                <h5 class="card-title">Disruptores</h5>
+                <p class="card-text">Juego de mesa con el que deberás crear un producto o servicio que innove en el negocio de manera novedosa, deseable y viable.</p>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/images/Caja de juego Vista 3D.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/DSC_6037.JPG" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/jonathan_disruptores.jpg" alt="Second slide">
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>        
     </div>
     <br>
-    <div class="fondo-tittle">
+    <div class="fondo-tittle d-xl-none d-lg-none"><!--mobile-->
         <h2 class="text-center">¿Con qué empresas puedes hacer proyectos?</h2>
         <p class="subtitulo">Algunas de ellas son:</p>
     </div>
-    <div class="card">
+    <div class="card d-xl-none d-lg-none"><!--mobile-->
         <div class="card-body">
             <h5 class="card-title">BCP</h5>
-            <p class="card-text">El cajero del futuro para el trabajor peruano</p>
+            <p class="card-text">El cajero del futuro para el trabajador peruano</p>
         </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
@@ -208,7 +217,7 @@
         </div>        
     </div>
     <br>
-    <div class="card">
+    <div class="card d-xl-none d-lg-none"><!--mobile-->
         <div class="card-body">
             <h5 class="card-title">Microsoft</h5>
             <p class="card-text">Inteligencia artificial para servicios</p>
@@ -225,7 +234,7 @@
         </div>
     </div>
     <br>
-    <div class="card" id="ponencias">
+    <div class="card d-xl-none d-lg-none" id="ponencias"><!--mobile-->
         <div class="card-body">
             <h5 class="card-title">Belcorp</h5>
             <p class="card-text">Visita Belcorp</p>
@@ -242,11 +251,11 @@
         </div>
     </div>
     <br>
-    <div class="fondo-tittle" id="profesores">
+    <div class="fondo-tittle d-xl-none d-lg-none" id="profesores"><!--mobile-->
         <h2 class="text-center">¿Qué ponencias tenemos?</h2>
         <p class="subtitulo">Algunos de nuestros ponentes son:</p>
     </div>    
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" id="profesores">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade d-xl-none d-lg-none" data-ride="carousel" id="profesores"><!--mobile-->
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <h3 class="text1">JL Revilla - Microsoft</h3>
@@ -263,12 +272,12 @@
         </div>
     </div>
     <br>
-    <div class="fondo-tittle">
+    <div class="fondo-tittle d-xl-none d-lg-none"><!--mobile-->
         <h2 class="text-center">¿Con quiénes aprenderás?</h2>
         <p class="subtitulo">Algunos de los profesores que tenemos son: </p>
     </div>
     <!--carrusel profesores-->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel"  id="aprender">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade d-xl-none d-lg-none" data-ride="carousel"  id="aprender"><!--mobile-->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <h3 class="text2">Andrea Lazarte</h3>
@@ -293,11 +302,11 @@
         </div>
     </div>
     <br>
-    <div class="fondo-tittle" id="aprender">
+    <div class="fondo-tittle d-xl-none d-lg-none" id="aprender"><!--mobile-->
         <h2 class="text-center">¿Qué vas aprender?</h2>
         <p class="subtitulo">Esto es lo que vas aprender</p>
     </div>
-    <div class="container">
+    <div class="container d-xl-none d-lg-none"><!--mobile-->
         <div class="row">
             <div class="col-sm-4">
                 <div type="button" class="btn circle-malla" data-toggle="modal" data-target="#exampleModalCenter" src="" alt=""><p class="text-center margen-top">Mira la <br>malla aquí</p>
