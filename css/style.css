@@ -243,3 +243,7 @@ div.scrollcards .card-horizontal {
 .btn-link:hover{
     color: #fff;
 }
+
+.accordion>.card .card-header {
+    margin-bottom: 0px;
+}
