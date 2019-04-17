@@ -12,7 +12,7 @@ a:hover {
 }
 
 footer h2 {
-    font-family: 'bebas_neueregular';
+    font-family: 'Gotham Rounded';
 }
 
 h2 {
@@ -116,11 +116,11 @@ ul li {
 }
 
 .margen-top {
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 .margen-top1 {
-    margin-top: 40%;
+    margin-top: 34%;
 }
 
 .morado-text {
@@ -188,3 +188,58 @@ ul li {
     }
 }
 
+.section{
+    margin-top: 40px;
+}
+.card {
+    margin: 10px 4px;
+    transition: .6s ease;
+}
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-block {
+     padding: 10px;
+  }
+  
+  .scrollcards {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+      background: transparent;
+  }
+  
+  div.scrollcards .card {
+      display: inline-block;
+      padding: 14px;
+      text-decoration: none;
+      height: auto; 
+      width: 180px;
+  }
+  
+  #morado {
+      color: #862683;
+  }
+
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+div.scrollcards .card-horizontal {
+    display: inline;
+    padding: 14px;
+    text-decoration: none;
+    height: auto; 
+    width: 180px;
+}
+
+.btn-link:hover{
+    color: #fff;
+}
