@@ -142,17 +142,35 @@ ul li {
     width: 100%;
 }
 
+.jumbotron {
+    background-image: url('../assets/images/Estereotipa1-02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#marron {
+    color: #4f3f39;
+}
+
+#introjumbo {
+    width: 800px;
+    height: 500px;
+    margin-left: 800px;
+    color: #4f3f39;
+}
+
+.margin-left {
+    margin-left: 20%;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #logo1 {
-        width: 25%;
+        width: 20%;
     }
     #logo2 {
         width: 20%;
-    }
-    #photo-hero{
-        margin-top: 17%;
     }
 } 
 
@@ -168,11 +186,29 @@ ul li {
     #photo-hero{
         margin-top: 11%;
     }
+    #logo1 {
+        width: 12%;
+    }
+    #logo2 {
+        width: 15%;
+    }
+    .margen-top {
+        margin-top: 11%;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #photo-hero{
+        margin-top: 7%;
+    }
+    #logo1 {
+        width: 8%;
+    }
+    #logo2 {
+        width: 10%;
+    }
+    .margen-top {
         margin-top: 7%;
     }
     
@@ -185,6 +221,15 @@ ul li {
     }
     #photo-hero{
         margin-top: 4%;
+    }
+    #logo1 {
+        width: 6%;
+    }
+    #logo2 {
+        width: 5%;
+    }
+    .margen-top {
+        margin-top: 5%;
     }
 }
 
