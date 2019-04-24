@@ -168,9 +168,16 @@ ul li {
 @media only screen and (max-width: 600px) {
     #logo1 {
         width: 20%;
+        margin-left: 20%;
     }
     #logo2 {
         width: 20%;
+    }
+    #logo3{
+        width: 60%;
+    }
+    .margin-left {
+        margin-left: 8%;
     }
 } 
 
@@ -291,4 +298,30 @@ div.scrollcards .card-horizontal {
 
 .accordion>.card .card-header {
     margin-bottom: 0px;
+}
+
+div.scrollcards1 .card-horizontal1 {
+    display: inline;
+    padding: 14px;
+    text-decoration: none;
+    height: auto; 
+    width: 180px;
+}
+
+.scrollcards1 {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  div.scrollcards1 .card {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    height: auto; 
+    width: 390px;
+}
+.card-horizontal1 {
+    display: flex;
+    flex: 1 1 auto;
 }
