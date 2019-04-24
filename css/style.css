@@ -163,12 +163,16 @@ ul li {
     margin-left: 20%;
 }
 
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #logo1 {
         width: 20%;
-        margin-left: 20%;
+        margin-left: 5%;
     }
     #logo2 {
         width: 20%;
