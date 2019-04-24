@@ -325,3 +325,12 @@ div.scrollcards1 .card-horizontal1 {
     display: flex;
     flex: 1 1 auto;
 }
+
+#contexto {
+    margin-top: 10%;
+    width: 90%;
+}
+
+.bg-light {
+    background-color: #862683!important;
+}
