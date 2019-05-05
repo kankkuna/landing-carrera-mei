@@ -139,7 +139,13 @@ ul li {
 }
 
 .jumbotron {
-    background-image: url('../assets/images/Estereotipa1-02.png');
+    background-image: url('../assets/images/estereotipa/Estereotipa1-02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron1 {
+    background-image: url('../assets/images/foto1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -159,6 +165,16 @@ ul li {
     color: #fff;
 }
 
+h4 {
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.pmargin-left {
+    margin-left: 10px;
+    width: 95%;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -176,8 +192,13 @@ ul li {
     #photo-hero{
         margin-top: 19%;
     }
-    
-} 
+    .jumbotron1 {
+        height: 248px;
+    }
+    .margin-left {
+        margin-left: 10%;
+    }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -186,6 +207,16 @@ ul li {
     }
     .margin-left {
         margin-left: 5.5%;
+    }
+    .jumbotron1 {
+        height: 186px;
+    }
+    #logo1 {
+        width: 20%;
+        margin-left: 4%;
+    }
+    #logo2 {
+        width: 20%;
     }
 } 
 
@@ -200,8 +231,9 @@ ul li {
     #logo2 {
         width: 15%;
     }
-    .margen-top {
-        margin-top: 11%;
+
+    .jumbotron1 {
+        height: 450px;
     }
 } 
 
@@ -218,6 +250,9 @@ ul li {
     }
     .margen-top {
         margin-top: 7%;
+    }
+    .jumbotron1 {
+        height: 590px;
     }
     
 } 
@@ -238,6 +273,53 @@ ul li {
     }
     .margen-top {
         margin-top: 5%;
+    }
+    .jumbotron1 {
+        height: 810px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1439px and up) */
+@media only screen and (min-width: 1439px) {
+    .logo-empresa {
+        width: 50%;
+    }
+    #photo-hero{
+        margin-top: 4%;
+    }
+    #logo1 {
+        width: 6%;
+    }
+    #logo2 {
+        width: 5%;
+    }
+    .margen-top {
+        margin-top: 5%;
+    }
+    .jumbotron1 {
+        height: 840px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 2500px and up) */
+@media only screen and (min-width: 2500px) {
+    .logo-empresa {
+        width: 50%;
+    }
+    #photo-hero{
+        margin-top: 4%;
+    }
+    #logo1 {
+        width: 6%;
+    }
+    #logo2 {
+        width: 5%;
+    }
+    .margen-top {
+        margin-top: 5%;
+    }
+    .jumbotron1 {
+        height: 1480px;
     }
 }
 
@@ -339,4 +421,8 @@ div.scrollcards1 .card-horizontal1 {
 .card-img-top {
     width: 92%;
     margin-left: 4%;
+}
+
+.text-center {
+    margin-top: 2%;
 }
