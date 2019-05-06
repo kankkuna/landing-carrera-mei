@@ -428,5 +428,5 @@ div.scrollcards1 .card-horizontal1 {
 }
 
 a[href^=tel] { 
-    color: inherit; text-decoration: none; 
+    color: inherit; text-decoration: #862683; 
 }
