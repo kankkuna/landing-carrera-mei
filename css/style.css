@@ -144,20 +144,14 @@ ul li {
     background-size: cover;
 }
 
-.jumbotron1 {
-    background-image: url('../assets/images/foto1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #marron {
     color: #4f3f39;
 }
 
 #introjumbo {
-    width: 800px;
-    height: 500px;
-    margin-left: 800px;
+    width: 817px;
+    height: 312px;
+    margin-left: 40%;
     color: #4f3f39;
 }
 
@@ -431,3 +425,13 @@ a[href^=tel] {
     color: #862683; text-decoration: none; 
 }
 
+.nav-morado {
+    color: #862683;
+    margin-top: 40px;
+}
+
+.margin-text-morado {
+    color: #862683;
+    margin: 1.5%;
+    text-align: start;
+}
