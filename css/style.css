@@ -3,6 +3,10 @@
     font-family: 'Caecilia LT Std';
 }
 
+body {
+    color: #000000;
+}
+
 a {
     color: #ffffff;
 }
@@ -75,7 +79,7 @@ ul li {
     color: #862683;
 }
 
-/*clases estereotipa*/
+/*clases estereotipa y futura*/
 .btn-estereotipa {
     color: white;
     background-color: #2CBBA7;
@@ -100,7 +104,12 @@ ul li {
     background-color: #2CBBA7;
 }
 
+/*clases disruptores*/
 
+.btn-disruptores {
+    color: white;
+    background-color: #eb2c90;
+}
 
 
 /*.circle-malla {
@@ -230,7 +239,7 @@ h4 {
     }
 
     .margin-left {
-        margin-left: 10%;
+        margin-left: 6%;
     }
 
     .jumbotron2 {
@@ -584,9 +593,9 @@ div.scrollcards1 .card {
     width: 90%;
 }
 
-.bg-light {
+/*.bg-light {
     background-color: #862683 !important;
-}
+}*/
 
 .card-img-top {
     width: 92%;
@@ -599,7 +608,7 @@ div.scrollcards1 .card {
 
 
 a[href^=tel] {
-    color: #862683;
+    color: #000000;
     text-decoration: none;
 }
 
