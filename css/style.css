@@ -57,41 +57,76 @@ ul li {
     display: inline;
 }
 
+/*clases home*/
 .btn {
     color: white;
     background-color: #862683;
 }
 
-.card-body {
+.fondo-tittle {
+    background-color: #862683;
+}
+
+#morado {
     color: #862683;
 }
 
-.circle-malla {
+.card-text, .card-title {
+    color: #862683;
+}
+
+/*clases estereotipa*/
+.btn-estereotipa {
+    color: white;
+    background-color: #2CBBA7;
+}
+
+#marron {
+    color: #4f3f39;
+}
+.marron {
+    color: #4f3f39;
+}
+
+.verde {
+    color: #2CBBA7;
+}
+
+#introjumbo {
+    color: #4f3f39;
+    margin-left: 40%;
+}
+.fondo-tittle-estereotipa {
+    background-color: #2CBBA7;
+}
+
+
+
+
+/*.circle-malla {
     width: 111px;
     height: 111px;
     -moz-border-radius: 50%;
      -webkit-border-radius: 50%;
      border-radius: 50%;
      background: #862683;
-}
+}*/
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:focus,
+.dropdown-item:hover {
     color: white;
     text-decoration: none;
     background-color: #862683;
 }
 
-.fa-facebook-square, .fa-instagram {
+.fa-facebook-square,
+.fa-instagram {
     color: #ffffff;
 }
 
 .fondo-card {
     background-image: url('../assets/images/grupo1.jpg');
     background-size: 100%;
-}
-
-.fondo-tittle {
-    background-color: #862683;
 }
 
 .lead {
@@ -105,7 +140,7 @@ ul li {
     border-style: solid;
 }
 
-.letter-one .morado-text  {
+.letter-one .morado-text {
     margin-bottom: 2px;
     margin-top: 15px;
 }
@@ -144,14 +179,13 @@ ul li {
     background-size: cover;
 }
 
-#marron {
-    color: #4f3f39;
+.jumbotron2 {
+    background-image: url('../assets/images/foto1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 185px;
 }
 
-#introjumbo {
-    color: #4f3f39;
-    margin-left: 40%;
-}
 
 .navbar-light .navbar-brand {
     color: #fff;
@@ -178,52 +212,70 @@ h4 {
         width: 20%;
         margin-left: 4%;
     }
+
     #logo2 {
         width: 20%;
     }
-    #logo3{
+
+    #logo3 {
         width: 60%;
     }
-    
-    #photo-hero{
+
+    #photo-hero {
         margin-top: 19%;
     }
+
     .jumbotron1 {
         height: 248px;
     }
+
     .margin-left {
         margin-left: 10%;
+    }
+
+    .jumbotron2 {
+        height: 242px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #photo-hero{
+@media only screen and (min-width: 601px) {
+    #photo-hero {
         margin-top: 17%;
     }
+
     .margin-left {
         margin-left: 5.5%;
     }
+
     .jumbotron1 {
         height: 186px;
     }
+
     #logo1 {
         width: 20%;
         margin-left: 4%;
     }
+
     #logo2 {
         width: 20%;
     }
-} 
+
+    .jumbotron2 {
+        height: 245px;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #photo-hero{
+    #photo-hero {
         margin-top: 11%;
     }
+
     #logo1 {
         width: 12%;
     }
+
     #logo2 {
         width: 15%;
     }
@@ -231,57 +283,83 @@ h4 {
     .jumbotron1 {
         height: 450px;
     }
+
     .font-1 {
         font-size: 26px;
     }
-} 
+
+    .jumbotron2 {
+        height: 440px;
+    }
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #photo-hero{
+    #photo-hero {
         margin-top: 7%;
     }
+
     #logo1 {
         width: 8%;
     }
+
     #logo2 {
         width: 10%;
     }
+
     .margen-top {
         margin-top: 7%;
     }
+
     .jumbotron {
         height: 455px;
     }
+
     .font-1 {
         font-size: 26px;
     }
-    
-} 
+
+    .jumbotron2 {
+        height: 585px;
+    }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .logo-empresa {
         width: 50%;
     }
-    #photo-hero{
+
+    #photo-hero {
         margin-top: 4%;
     }
+
     #logo1 {
         width: 6%;
     }
+
     #logo2 {
         width: 5%;
     }
+
     .margen-top {
         margin-top: 5%;
     }
+
     .jumbotron {
         height: 560px;
     }
+
     .font-1 {
         font-size: 31px;
     }
+
+    .jumbotron2 {
+        height: 825px;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1439px and up) */
@@ -289,20 +367,29 @@ h4 {
     .logo-empresa {
         width: 50%;
     }
-    #photo-hero{
+
+    #photo-hero {
         margin-top: 4%;
     }
+
     #logo1 {
         width: 6%;
     }
+
     #logo2 {
         width: 5%;
     }
+
     .margen-top {
         margin-top: 5%;
     }
+
     .jumbotron {
         height: 575px;
+    }
+
+    .jumbotron2 {
+        height: 825px;
     }
 }
 
@@ -311,18 +398,23 @@ h4 {
     .logo-empresa {
         width: 50%;
     }
-    #photo-hero{
+
+    #photo-hero {
         margin-top: 4%;
     }
+
     #logo1 {
         width: 6%;
     }
+
     #logo2 {
         width: 5%;
     }
+
     .margen-top {
         margin-top: 5%;
     }
+
     .jumbotron {
         height: 765px;
     }
@@ -333,105 +425,126 @@ h4 {
     .logo-empresa {
         width: 50%;
     }
-    #photo-hero{
+
+    #photo-hero {
         margin-top: 4%;
     }
+
     #logo1 {
         width: 6%;
     }
+
     #logo2 {
         width: 5%;
     }
+
     .margen-top {
         margin-top: 15%;
     }
+
     .jumbotron {
         height: 1028px;
     }
+
     .font-1 {
         font-size: 50px;
-        
+
     }
+
+    .jumbotron2 {
+        height: 1450px;
+    }
+
 }
+
 /* Extra large devices (large laptops and desktops, 3000px and up) */
 @media only screen and (min-width: 3000px) {
     .logo-empresa {
         width: 50%;
     }
-    #photo-hero{
+
+    #photo-hero {
         margin-top: 4%;
     }
+
     #logo1 {
         width: 6%;
     }
+
     #logo2 {
         width: 5%;
     }
+
     .margen-top {
         margin-top: 15%;
     }
+
     .jumbotron {
         height: 1250px;
     }
+
     .font-1 {
         font-size: 50px;
-        
+
     }
+
+    .jumbotron2 {
+        height: 1840px;
+    }
+
 }
 
-.section{
+.section {
     margin-top: 40px;
 }
+
 .card {
     margin: 10px 4px;
     transition: .6s ease;
 }
-  
-  .card:hover {
+
+.card:hover {
     transform: scale(1.05);
-  }
-  
-  .card-block {
-     padding: 10px;
-  }
-  
-  .scrollcards {
+}
+
+.card-block {
+    padding: 10px;
+}
+
+.scrollcards {
     background-color: #fff;
     overflow: auto;
     white-space: nowrap;
-  }
-  
-  ::-webkit-scrollbar {
-      width: 0px;
-      height: 0px;
-      background: transparent;
-  }
-  
-  div.scrollcards .card {
-      display: inline-block;
-      padding: 14px;
-      text-decoration: none;
-      height: auto; 
-      width: 180px;
-  }
-  
-  #morado {
-      color: #862683;
-  }
+}
 
-  .card-horizontal {
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+
+div.scrollcards .card {
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    height: auto;
+    width: 180px;
+}
+
+.card-horizontal {
     display: flex;
     flex: 1 1 auto;
 }
+
 div.scrollcards .card-horizontal {
     display: inline;
     padding: 14px;
     text-decoration: none;
-    height: auto; 
+    height: auto;
     width: 180px;
 }
 
-.btn-link:hover{
+.btn-link:hover {
     color: #fff;
 }
 
@@ -443,7 +556,7 @@ div.scrollcards1 .card-horizontal1 {
     display: inline;
     padding: 14px;
     text-decoration: none;
-    height: auto; 
+    height: auto;
     width: 180px;
 }
 
@@ -451,15 +564,16 @@ div.scrollcards1 .card-horizontal1 {
     background-color: #fff;
     overflow: auto;
     white-space: nowrap;
-  }
+}
 
-  div.scrollcards1 .card {
+div.scrollcards1 .card {
     display: inline-block;
     padding: 14px;
     text-decoration: none;
-    height: auto; 
+    height: auto;
     width: 390px;
 }
+
 .card-horizontal1 {
     display: flex;
     flex: 1 1 auto;
@@ -471,7 +585,7 @@ div.scrollcards1 .card-horizontal1 {
 }
 
 .bg-light {
-    background-color: #862683!important;
+    background-color: #862683 !important;
 }
 
 .card-img-top {
@@ -484,12 +598,12 @@ div.scrollcards1 .card-horizontal1 {
 }
 
 
-a[href^=tel] { 
-    color: #862683; text-decoration: none; 
+a[href^=tel] {
+    color: #862683;
+    text-decoration: none;
 }
 
-.nav-morado {
-    color: #862683;
+.nav-margin {
     margin-top: 40px;
 }
 
